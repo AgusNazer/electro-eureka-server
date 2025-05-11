@@ -3,4 +3,3 @@ services:
     name: eureka-server
     env: docker
     plan: free
-    dockerfilePath: ./Dockerfile
