@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: eureka-server
+    env: java
+    buildCommand: ./mvnw clean package
+    startCommand: java -jar target/eureka-server.jar
+    plan: free
